@@ -1,6 +1,6 @@
 .logo{
     width: 110px;
-    transition: all .5s ease;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .logo:hover{
@@ -10,14 +10,38 @@
 
 .boton-logo{
     margin-top: -12px;
-    background-color: #ffdfee;
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 .lista-enlaces{
-    background-color: #ffdfee;
     margin: 10px;
     list-style: none;
     padding: 0;
+    position: relative;
+    z-index: 1;
 }
+
+.enlace-li{
+    p{
+        margin: 0;
+    }
+    width: 200px;
+    padding: 5px;
+    background-color: #ffb1d5;
+    transition: all .5s ease;
+}
+
+.enlace-li:hover{
+    background-color: #ce8cab;
+}
+.enlace{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    span{
+        color: white;
+    }
+}
+

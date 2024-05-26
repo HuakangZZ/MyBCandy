@@ -1,14 +1,26 @@
 <mat-drawer #drawer mode="side" position="end">
     <ul class="lista-enlaces">
-        <li style="padding: 0 50px;"><a routerLink=""><mat-icon style="color: white;">trolley</mat-icon>Catalogo</a></li>
-        <li style="padding: 0 50px;"><a routerLink=""><mat-icon>trolley</mat-icon>Catalogo</a></li>
-        <li style="padding: 0 50px;"><a routerLink=""><mat-icon>trolley</mat-icon>Catalogo</a></li>
-        <li style="padding: 0 50px;"><a routerLink=""><mat-icon>trolley</mat-icon>Catalogo</a></li>
-        <li style="padding: 0 50px;"><a routerLink=""><mat-icon>trolley</mat-icon>Catalogo</a></li>
-
+        <li class="enlace-li">
+            <a class="enlace" routerLink="">
+                <mat-icon style="color: white;">trolley</mat-icon>
+                <span>Catalogo</span>
+            </a>
+        </li>
+        <li class="enlace-li">
+            <a class="enlace" routerLink="">
+                <mat-icon style="color: white;">trolley</mat-icon>
+                <span>Registrar producto</span>
+            </a>
+        </li>
+        <li class="enlace-li">
+            <a class="enlace" routerLink="">
+                <mat-icon style="color: white;">trolley</mat-icon>
+                <span>Registrar Cliente</span>
+            </a>
+        </li>
     </ul>
 </mat-drawer>
-<div style="text-align: center;">
+<div style="text-align: center; background-color: transparent;">
     <button (click)="drawer.toggle()" class="boton-logo">
         <img src="../../../assets/Logo.png" alt="" class="logo">
     </button>
