@@ -1,0 +1,23 @@
+.logo{
+    width: 110px;
+    transition: all .5s ease;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+
+.boton-logo{
+    margin-top: -12px;
+    background-color: #ffdfee;
+    border: none;
+    cursor: pointer;
+}
+
+.lista-enlaces{
+    background-color: #ffdfee;
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+}

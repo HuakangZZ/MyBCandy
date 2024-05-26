@@ -1,0 +1,21 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.navbar-style{
+    padding: 70px 0;
+    background-color: #ffdfee;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius:50% ;
+    border-bottom-right-radius:50% ;
+}
+
+.logo{
+    width: 150px;
+    transition: all .5s ease;
+}
+
+.logo:hover{
+    width: 170px;
+}
